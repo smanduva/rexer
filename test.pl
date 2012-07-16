@@ -1,2 +1,4 @@
 #!/usr/bin/perl -w
-system('which x');
+use Sys::Hostname;
+print hostname;
+
